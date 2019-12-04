@@ -1,5 +1,9 @@
 import React from 'react';
 
-const Home = () => <h1>Home</h1>;
+const Home = props => (
+  <React.Fragment>
+    <h1>Home</h1>
+  </React.Fragment>
+);
 
 export default Home;
