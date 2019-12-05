@@ -1,5 +1,10 @@
 import React from 'react';
 
-const Contact = () => <h1>Contact</h1>;
+const Contact = props => (
+  <React.Fragment>
+    <h1>Contact</h1>
+  </React.Fragment>
+);
+
 
 export default Contact;
